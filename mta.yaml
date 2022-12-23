@@ -1,0 +1,52 @@
+_schema-version: "3.2"
+ID: simpleFioriLauncher
+version: 0.0.1
+parameters:
+  custom-domain: ''
+modules:
+- name: simplefiorilauncher-approuter
+  type: approuter.nodejs
+  path: simplefiorilauncher-approuter
+  properties:
+    SAP_JWT_TRUST_ACL:
+      - clientid: '*'
+        identityzone: '*'
+    SESSION_TIMEOUT: 60
+    TENANT_HOST_PATTERN: '^(.*)-${space}-simplefiorilauncher${custom-domain}.${default-domain}'
+  requires:
+  - name: simpleFioriLauncher_html_repo_runtime
+  - name: uaa_simpleFioriLauncher
+  - name: portal_resources_simpleFioriLauncher
+  parameters:
+    disk-quota: 256M
+    memory: 256M
+- name: flp
+  type: com.sap.application.content
+  path: flp
+  requires:
+  - name: portal_resources_simpleFioriLauncher
+    parameters:
+      content-target: true
+      service-key:
+        config:
+          content-endpoint: developer
+        name: content-deploy-key
+  - name: uaa_simpleFioriLauncher
+resources:
+- name: simpleFioriLauncher_html_repo_runtime
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-plan: app-runtime
+- name: uaa_simpleFioriLauncher
+  type: org.cloudfoundry.managed-service
+  parameters:
+    path: ./xs-security.json
+    service: xsuaa
+    service-name: simpleFioriLauncher-xsuaa-service
+    service-plan: application
+- name: portal_resources_simpleFioriLauncher
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: scp-launchpad
+    service-plan: standard
