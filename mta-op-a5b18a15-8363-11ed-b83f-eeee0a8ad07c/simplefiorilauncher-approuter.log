@@ -1,0 +1,852 @@
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:35 UTC 2022] Starting app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:36 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 20689bc5-0bb0-4a06-4728-7f36 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:36 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 20689bc5-0bb0-4a06-4728-7f36 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:37 UTC 2022] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:39 UTC 2022] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:39 UTC 2022] Downloaded droplet (51.6M) (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:42 UTC 2022] > node node_modules/@sap/approuter/approuter.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:42 UTC 2022] > start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:45 UTC 2022] {"written_at":"2022-12-24T07:49:45.555Z","written_ts":1671868185555000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:47 UTC 2022] {"written_at":"2022-12-24T07:49:47.155Z","written_ts":1671868187155000000,"csn_component":"-","correlation_id":"lc1n5hcj","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1n5hcj","msg":"Application router version 10.5.1"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:47 UTC 2022] {"written_at":"2022-12-24T07:49:47.156Z","written_ts":1671868187156000000,"csn_component":"-","correlation_id":"lc1n5hck","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1n5hck","msg":"Using empty destinations to run"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:47 UTC 2022] {"written_at":"2022-12-24T07:49:47.156Z","written_ts":1671868187156000000,"csn_component":"-","correlation_id":"lc1n5hck","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1n5hck","msg":"No COOKIES environment variable"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:47 UTC 2022] {"written_at":"2022-12-24T07:49:47.162Z","written_ts":1671868187162000000,"csn_component":"-","correlation_id":"lc1n5hcq","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"warning","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1n5hcq","msg":"No authentication will be used when accessing backends. Scopes defined in routes will be ignored."} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:47 UTC 2022] {"written_at":"2022-12-24T07:49:47.258Z","written_ts":1671868187258000000,"csn_component":"-","correlation_id":"lc1n5hcj","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1n5hcj","msg":"Application router is listening on port: 8080"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:49:48 UTC 2022] Container became healthy (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:52:13 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:52:13.225743127Z] "GET /cp.portal HTTP/2.0" 302 0 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.72.1:20904" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.72.1" x_forwarded_proto:"https" vcap_request_id:"3541be19-eed3-46ba-7803-2eb82ce34492" response_time:0.256132 gorouter_time:0.000081 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"20689bc5-0bb0-4a06-4728-7f36" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9ec8d915-2f8f-4c5d-84e0-4e712a94eb2c-63A6AFAC-EEDE0" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"21d5a5f2b4375fd301c4d740a4469429" x_b3_spanid:"01c4d740a4469429" x_b3_parentspanid:"-" b3:"21d5a5f2b4375fd301c4d740a4469429-01c4d740a4469429" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:08 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 20689bc5-0bb0-4a06-4728-7f36 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:09 UTC 2022] Restarted app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:09 UTC 2022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance ba87b1e7-f662-49a1-47e5-dea0 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:09 UTC 2022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance ba87b1e7-f662-49a1-47e5-dea0 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:10 UTC 2022] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:12 UTC 2022] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:12 UTC 2022] Downloaded droplet (51.6M) (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:15 UTC 2022] > node node_modules/@sap/approuter/approuter.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:15 UTC 2022] > start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:18 UTC 2022] {"written_at":"2022-12-24T07:55:18.157Z","written_ts":1671868518157000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:19 UTC 2022] {"written_at":"2022-12-24T07:55:19.753Z","written_ts":1671868519753000000,"csn_component":"-","correlation_id":"lc1nclzd","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nclzd","msg":"Application router version 10.5.1"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:19 UTC 2022] {"written_at":"2022-12-24T07:55:19.754Z","written_ts":1671868519754000000,"csn_component":"-","correlation_id":"lc1nclze","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nclze","msg":"Using empty destinations to run"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:19 UTC 2022] {"written_at":"2022-12-24T07:55:19.755Z","written_ts":1671868519755000000,"csn_component":"-","correlation_id":"lc1nclze","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nclze","msg":"No COOKIES environment variable"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:19 UTC 2022] {"written_at":"2022-12-24T07:55:19.762Z","written_ts":1671868519762000000,"csn_component":"-","correlation_id":"lc1nclzm","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"warning","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nclzm","msg":"No authentication will be used when accessing backends. Scopes defined in routes will be ignored."} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:19 UTC 2022] {"written_at":"2022-12-24T07:55:19.762Z","written_ts":1671868519762000000,"csn_component":"-","correlation_id":"lc1nclzm","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nclzm","msg":"xs-app.json: Application does not have directory for static resources!"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:19 UTC 2022] {"written_at":"2022-12-24T07:55:19.860Z","written_ts":1671868519860000000,"csn_component":"-","correlation_id":"lc1nclzd","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nclzd","msg":"Application router is listening on port: 8080"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:21 UTC 2022] Container became healthy (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:25 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 20689bc5-0bb0-4a06-4728-7f36 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:25 UTC 2022] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:25 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 20689bc5-0bb0-4a06-4728-7f36 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:45 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:55:45.128774254Z] "GET / HTTP/2.0" 302 0 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.1:45790" "10.32.2.6:61005" x_forwarded_for:"165.1.238.31, 10.0.136.1" x_forwarded_proto:"https" vcap_request_id:"8280cb8b-fb8b-4f4b-6054-939df507bb11" response_time:0.010140 gorouter_time:0.000088 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"ba87b1e7-f662-49a1-47e5-dea0" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"34119550-1990-4c23-aff1-853154d7e0a0-63A6B080-EA01F" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"5a400a5e4e8af26c5e1cdb14ac42a056" x_b3_spanid:"5e1cdb14ac42a056" x_b3_parentspanid:"-" b3:"5a400a5e4e8af26c5e1cdb14ac42a056-5e1cdb14ac42a056" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:45 UTC 2022] {"written_at":"2022-12-24T07:55:45.395Z","written_ts":1671868545395000000,"csn_component":"-","correlation_id":"fa0d28f2-720a-4a09-4398-57f6f535e3ef","type":"log","logger":"nodejs-logger","layer":"/Handler","level":"error","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"fa0d28f2-720a-4a09-4398-57f6f535e3ef","msg":"GET request to /cp.portal completed with status 404 Cannot GET /cp.portal"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:45 UTC 2022] {"written_at":"2022-12-24T07:55:45.394Z","written_ts":1671868545394000000,"csn_component":"-","correlation_id":"fa0d28f2-720a-4a09-4398-57f6f535e3ef","type":"log","logger":"nodejs-logger","layer":"/requestHandler","level":"error","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"fa0d28f2-720a-4a09-4398-57f6f535e3ef","msg":"Missing internal url for request url /cp.portal"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:55:45 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:55:45.385970214Z] "GET /cp.portal HTTP/2.0" 404 0 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.1:6480" "10.32.2.6:61005" x_forwarded_for:"165.1.238.31, 10.0.136.1" x_forwarded_proto:"https" vcap_request_id:"fa0d28f2-720a-4a09-4398-57f6f535e3ef" response_time:0.011184 gorouter_time:0.000079 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"ba87b1e7-f662-49a1-47e5-dea0" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"34119550-1990-4c23-aff1-853154d7e0a0-63A6B081-EA020" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"2ba00a6c29d954017ef43766a317df37" x_b3_spanid:"7ef43766a317df37" x_b3_parentspanid:"-" b3:"2ba00a6c29d954017ef43766a317df37-7ef43766a317df37" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:24 UTC 2022] {"written_at":"2022-12-24T07:56:24.285Z","written_ts":1671868584285000000,"csn_component":"-","correlation_id":"cf44dde0-1d5e-44cf-7909-d0648f284424","type":"log","logger":"nodejs-logger","layer":"/requestHandler","level":"error","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"cf44dde0-1d5e-44cf-7909-d0648f284424","msg":"Missing internal url for request url /cp.portal"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:24 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:56:24.278629597Z] "GET /cp.portal HTTP/2.0" 404 0 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.200.1:35648" "10.32.2.6:61005" x_forwarded_for:"165.1.238.31, 10.0.200.1" x_forwarded_proto:"https" vcap_request_id:"cf44dde0-1d5e-44cf-7909-d0648f284424" response_time:0.008204 gorouter_time:0.000084 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"ba87b1e7-f662-49a1-47e5-dea0" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"d507a79a-c120-451f-bada-836da6127a5a-63A6B0A8-E58C5" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"4cceaa71862501760066aabe565f4199" x_b3_spanid:"0066aabe565f4199" x_b3_parentspanid:"-" b3:"4cceaa71862501760066aabe565f4199-0066aabe565f4199" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:24 UTC 2022] {"written_at":"2022-12-24T07:56:24.285Z","written_ts":1671868584285000000,"csn_component":"-","correlation_id":"cf44dde0-1d5e-44cf-7909-d0648f284424","type":"log","logger":"nodejs-logger","layer":"/Handler","level":"error","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"cf44dde0-1d5e-44cf-7909-d0648f284424","msg":"GET request to /cp.portal completed with status 404 Cannot GET /cp.portal"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:34 UTC 2022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance ba87b1e7-f662-49a1-47e5-dea0 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:34 UTC 2022] Restarted app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:34 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance f412a25f-869e-4da9-6c25-3e50 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:34 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance f412a25f-869e-4da9-6c25-3e50 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:35 UTC 2022] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:37 UTC 2022] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:37 UTC 2022] Downloaded droplet (51.6M) (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:40 UTC 2022] > node node_modules/@sap/approuter/approuter.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:40 UTC 2022] > start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:43 UTC 2022] {"written_at":"2022-12-24T07:56:43.161Z","written_ts":1671868603161000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:44 UTC 2022] {"written_at":"2022-12-24T07:56:44.766Z","written_ts":1671868604766000000,"csn_component":"-","correlation_id":"lc1nefkv","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nefkv","msg":"Application router version 10.5.1"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:44 UTC 2022] {"written_at":"2022-12-24T07:56:44.768Z","written_ts":1671868604768000000,"csn_component":"-","correlation_id":"lc1nefkw","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nefkw","msg":"No COOKIES environment variable"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:44 UTC 2022] {"written_at":"2022-12-24T07:56:44.768Z","written_ts":1671868604768000000,"csn_component":"-","correlation_id":"lc1nefkw","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nefkw","msg":"Using empty destinations to run"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:44 UTC 2022] {"written_at":"2022-12-24T07:56:44.851Z","written_ts":1671868604851000000,"csn_component":"-","correlation_id":"lc1nefn7","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"warning","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nefn7","msg":"No authentication will be used when accessing backends. Scopes defined in routes will be ignored."} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:44 UTC 2022] {"written_at":"2022-12-24T07:56:44.870Z","written_ts":1671868604870000000,"csn_component":"-","correlation_id":"lc1nefkv","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nefkv","msg":"Application router is listening on port: 8080"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:46 UTC 2022] Container became healthy (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:50 UTC 2022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance ba87b1e7-f662-49a1-47e5-dea0 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:50 UTC 2022] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:56:51 UTC 2022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance ba87b1e7-f662-49a1-47e5-dea0 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:57:03 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:57:03.568006985Z] "GET /cp.portal HTTP/2.0" 302 0 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.200.1:47068" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.200.1" x_forwarded_proto:"https" vcap_request_id:"947e5462-4e86-4552-4d4c-f9e7538c3c2d" response_time:0.064797 gorouter_time:0.000072 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"d507a79a-c120-451f-bada-836da6127a5a-63A6B0A8-E5C23" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"464e6c7ea1f86dcb0ff5067d85f4987c" x_b3_spanid:"0ff5067d85f4987c" x_b3_parentspanid:"-" b3:"464e6c7ea1f86dcb0ff5067d85f4987c-0ff5067d85f4987c" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:57:03 UTC 2022] {"written_at":"2022-12-24T07:57:03.901Z","written_ts":1671868623901000000,"csn_component":"-","correlation_id":"ee9cf5eb-1b08-4f5b-4a9d-52211aa2fc6d","type":"log","logger":"nodejs-logger","layer":"/Auth/OAuth2","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"ee9cf5eb-1b08-4f5b-4a9d-52211aa2fc6d","msg":"x-forwarded-path header: undefined"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:57:03 UTC 2022] {"written_at":"2022-12-24T07:57:03.901Z","written_ts":1671868623901000000,"csn_component":"-","correlation_id":"ee9cf5eb-1b08-4f5b-4a9d-52211aa2fc6d","type":"log","logger":"nodejs-logger","layer":"/Auth/OAuth2","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"ee9cf5eb-1b08-4f5b-4a9d-52211aa2fc6d","msg":"sending page with client-side redirect to https://ca502f84trial.authentication.us10.hana.ondemand.com/oauth/authorize?response_type=code&client_id=sb-simplefiorilauncher!t123346&redirect_uri=https%3A%2F%2Fca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com%2Flogin%2Fcallback"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:57:03 UTC 2022] {"written_at":"2022-12-24T07:57:03.900Z","written_ts":1671868623900000000,"csn_component":"-","correlation_id":"ee9cf5eb-1b08-4f5b-4a9d-52211aa2fc6d","type":"log","logger":"nodejs-logger","layer":"/Auth/OAuth2","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"ee9cf5eb-1b08-4f5b-4a9d-52211aa2fc6d","msg":"query does not exist for request url /cp.portal/site"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:57:03 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:57:03.886162658Z] "GET /cp.portal/site HTTP/2.0" 200 0 699 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.200.1:54972" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.200.1" x_forwarded_proto:"https" vcap_request_id:"ee9cf5eb-1b08-4f5b-4a9d-52211aa2fc6d" response_time:0.016783 gorouter_time:0.000057 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"d507a79a-c120-451f-bada-836da6127a5a-63A6B0CF-E5C41" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"30cd1c8fc76c3d530a5ae012c43366f7" x_b3_spanid:"0a5ae012c43366f7" x_b3_parentspanid:"-" b3:"30cd1c8fc76c3d530a5ae012c43366f7-0a5ae012c43366f7" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:15 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:15.115015704Z] "GET /login/callback?code=RE8N3F3pAsIflzVaXcHCmMrHibnWCCZu HTTP/2.0" 302 0 0 "https://cdc-api.account.sap.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:9972" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"e94509f0-a3b5-4327-75ba-0f1e0db5f26f" response_time:0.254633 gorouter_time:0.000073 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B116-EC5DE" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"32b457ff6d8237f45aac85575a67c4dd" x_b3_spanid:"5aac85575a67c4dd" x_b3_parentspanid:"-" b3:"32b457ff6d8237f45aac85575a67c4dd-5aac85575a67c4dd" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:16 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:15.620299465Z] "GET /cp.portal/site HTTP/2.0" 200 0 3455 "https://cdc-api.account.sap.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:47504" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"79bbeef8-ccca-4337-46cd-9a186c5a80f8" response_time:0.515905 gorouter_time:0.000091 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B117-EC5E6" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"0a645e4b02adeb413251087045efbd37" x_b3_spanid:"3251087045efbd37" x_b3_parentspanid:"-" b3:"0a645e4b02adeb413251087045efbd37-3251087045efbd37" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:18 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:18.242006527Z] "GET /cp.portal/portal/rest/v1/site?siteId=default&sap-language=default HTTP/2.0" 200 0 741 "https://ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com/cp.portal/site" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:38984" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"35ef8835-9745-4435-5134-3b23c44886fc" response_time:0.110868 gorouter_time:0.000077 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B117-EC648" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"4dd585056cd6a55a28bb6b6cb649dc9f" x_b3_spanid:"28bb6b6cb649dc9f" x_b3_parentspanid:"-" b3:"4dd585056cd6a55a28bb6b6cb649dc9f-28bb6b6cb649dc9f" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:18 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:18.242425954Z] "GET /cp.portal/portal/rest/v1/personalization?siteId=default&cacheBusterToken=1671822819724 HTTP/2.0" 200 0 0 "https://ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com/cp.portal/site" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:38984" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"74617c28-a322-4624-7f34-ad126a24f6d3" response_time:0.267892 gorouter_time:0.000061 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B11A-EC649" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"6cc1f0f7ae133237125f432c668b55b8" x_b3_spanid:"125f432c668b55b8" x_b3_parentspanid:"-" b3:"6cc1f0f7ae133237125f432c668b55b8-125f432c668b55b8" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:40 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:40.739122014Z] "HEAD /cp.portal/sessionKeepAlive HTTP/2.0" 200 0 0 "https://ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com/cp.portal/site" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:48018" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"0e56f8a6-a14a-4a08-5dd3-cacff9cf04ac" response_time:0.175883 gorouter_time:0.000100 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B11A-EC7F5" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"16a68715fffcd7115b033c9c4b7da7fa" x_b3_spanid:"5b033c9c4b7da7fa" x_b3_parentspanid:"-" b3:"16a68715fffcd7115b033c9c4b7da7fa-5b033c9c4b7da7fa" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:43 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:43.012771967Z] "GET /cp.portal/site HTTP/2.0" 200 0 3455 "https://cdc-api.account.sap.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:56174" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"26bb7991-da67-43a3-505b-6bc872e16d3a" response_time:0.128225 gorouter_time:0.000085 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B130-EC81D" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"129d697932ff8efe2aa34eb8409ac880" x_b3_spanid:"2aa34eb8409ac880" x_b3_parentspanid:"-" b3:"129d697932ff8efe2aa34eb8409ac880-2aa34eb8409ac880" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:44 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:44.202168955Z] "GET /cp.portal/portal/rest/v1/personalization?siteId=default&cacheBusterToken=1671822819724 HTTP/2.0" 200 0 0 "https://ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com/cp.portal/site" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:9972" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"ad9e5790-8263-41fe-5d04-d76b0ef6e98c" response_time:0.096921 gorouter_time:0.000070 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B134-EC839" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"0c6399de6abc27bc5494d7660aa69da4" x_b3_spanid:"5494d7660aa69da4" x_b3_parentspanid:"-" b3:"0c6399de6abc27bc5494d7660aa69da4-5494d7660aa69da4" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:58:44 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:58:44.200761839Z] "GET /cp.portal/portal/rest/v1/site?siteId=default&sap-language=default HTTP/2.0" 200 0 741 "https://ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com/cp.portal/site" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:9972" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"bb2d72a6-c6ff-430b-78c1-1f2b9dc1db93" response_time:0.107138 gorouter_time:0.000074 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B133-EC838" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"76d0696e18184c8a6a2c863c49bf798e" x_b3_spanid:"6a2c863c49bf798e" x_b3_parentspanid:"-" b3:"76d0696e18184c8a6a2c863c49bf798e-6a2c863c49bf798e" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 07:59:06 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T07:59:05.974952080Z] "HEAD /cp.portal/sessionKeepAlive HTTP/2.0" 200 0 0 "https://ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com/cp.portal/site" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.136.0:48018" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.136.0" x_forwarded_proto:"https" vcap_request_id:"8f93a938-2155-4c4e-636b-fdcc233a406a" response_time:0.039816 gorouter_time:0.000075 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9454dfcb-6c95-47f3-b272-d2e0899150d7-63A6B134-ECA5D" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"639d6e9d7ef44e2e5499e563120d20ab" x_b3_spanid:"5499e563120d20ab" x_b3_parentspanid:"-" b3:"639d6e9d7ef44e2e5499e563120d20ab-5499e563120d20ab" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:05:13 UTC 2022] Updated app with guid a691ce29-063e-4879-a861-affa2c6d4310 ({"metadata"=>{"annotations"=>{"mta_id"=>"simpleFioriLauncher", "mta_version"=>"0.0.1", "mta_module"=>"{\"name\":\"simplefiorilauncher-approuter\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[\"simpleFioriLauncher_html_repo_runtime\",\"portal_resources_simpleFioriLauncher\"]"}, "labels"=>{"mta_id"=>"a875800da4131881c448254c48a0785c"}}}) (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:05:13 UTC 2022] Updated app with guid a691ce29-063e-4879-a861-affa2c6d4310 ({"lifecycle"=>{"data"=>{}, "type"=>"buildpack"}}) (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:05:13 UTC 2022] Updating process: "web" (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:06:07 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T08:06:07.281736339Z] "HEAD /cp.portal/sessionKeepAlive HTTP/2.0" 200 0 0 "https://ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com/cp.portal/site" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.72.0:3034" "10.32.3.6:61006" x_forwarded_for:"165.1.238.31, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"9db78418-2914-4973-7c1d-1da02cb8daa8" response_time:0.111982 gorouter_time:0.000098 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"f412a25f-869e-4da9-6c25-3e50" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"643a6d98-c9f0-4237-8572-b58b2550fa16-63A6B2EF-EB8F4" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"3eb31b911b71d7b966c90778decb0106" x_b3_spanid:"66c90778decb0106" x_b3_parentspanid:"-" b3:"3eb31b911b71d7b966c90778decb0106-66c90778decb0106" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:24 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance f412a25f-869e-4da9-6c25-3e50 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:24 UTC 2022] Restarted app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:24 UTC 2022] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 1209cb52-7bd7-4145-5ed6-4c2b (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:24 UTC 2022] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 1209cb52-7bd7-4145-5ed6-4c2b (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:25 UTC 2022] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:28 UTC 2022] Downloaded droplet (51.6M) (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:28 UTC 2022] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:31 UTC 2022] > node node_modules/@sap/approuter/approuter.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:31 UTC 2022] > start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:33 UTC 2022] {"written_at":"2022-12-24T08:07:33.673Z","written_ts":1671869253673000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:35 UTC 2022] {"written_at":"2022-12-24T08:07:35.187Z","written_ts":1671869255187000000,"csn_component":"-","correlation_id":"lc1nsdg4","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nsdg4","msg":"Application router version 10.5.1"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:35 UTC 2022] {"written_at":"2022-12-24T08:07:35.189Z","written_ts":1671869255189000000,"csn_component":"-","correlation_id":"lc1nsdg5","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nsdg5","msg":"No COOKIES environment variable"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:35 UTC 2022] {"written_at":"2022-12-24T08:07:35.189Z","written_ts":1671869255189000000,"csn_component":"-","correlation_id":"lc1nsdg5","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nsdg5","msg":"Using empty destinations to run"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:35 UTC 2022] {"written_at":"2022-12-24T08:07:35.271Z","written_ts":1671869255271000000,"csn_component":"-","correlation_id":"lc1nsdif","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"warning","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nsdif","msg":"No authentication will be used when accessing backends. Scopes defined in routes will be ignored."} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:35 UTC 2022] {"written_at":"2022-12-24T08:07:35.289Z","written_ts":1671869255289000000,"csn_component":"-","correlation_id":"lc1nsdg4","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1nsdg4","msg":"Application router is listening on port: 8080"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:36 UTC 2022] Container became healthy (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:40 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance f412a25f-869e-4da9-6c25-3e50 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:40 UTC 2022] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:41 UTC 2022] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance f412a25f-869e-4da9-6c25-3e50 (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:47 UTC 2022] {"written_at":"2022-12-24T08:07:47.139Z","written_ts":1671869267139000000,"csn_component":"-","correlation_id":"7557b195-1cb7-43f8-40ac-8ea90cbf2ec9","type":"log","logger":"nodejs-logger","layer":"/Auth/OAuth2","level":"info","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"7557b195-1cb7-43f8-40ac-8ea90cbf2ec9","msg":"x-forwarded-path header: undefined"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:47 UTC 2022] {"written_at":"2022-12-24T08:07:47.139Z","written_ts":1671869267139000000,"csn_component":"-","correlation_id":"7557b195-1cb7-43f8-40ac-8ea90cbf2ec9","type":"log","logger":"nodejs-logger","layer":"/Auth/OAuth2","level":"info","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"7557b195-1cb7-43f8-40ac-8ea90cbf2ec9","msg":"sending page with client-side redirect to https://ca502f84trial.authentication.us10.hana.ondemand.com/oauth/authorize?response_type=code&client_id=sb-applicatioui!t123346&redirect_uri=https%3A%2F%2Fca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com%2Flogin%2Fcallback"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:47 UTC 2022] {"written_at":"2022-12-24T08:07:47.139Z","written_ts":1671869267139000000,"csn_component":"-","correlation_id":"7557b195-1cb7-43f8-40ac-8ea90cbf2ec9","type":"log","logger":"nodejs-logger","layer":"/Auth/OAuth2","level":"info","container_id":"10.32.1.5","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","request_id":"7557b195-1cb7-43f8-40ac-8ea90cbf2ec9","msg":"query does not exist for request url /cp.portal/site"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:07:47 UTC 2022] ca502f84trial-dev-simplefiorilauncher-approuter.cfapps.us10-001.hana.ondemand.com - [2022-12-24T08:07:46.906673546Z] "GET /cp.portal/site HTTP/2.0" 200 0 696 "https://cdc-api.account.sap.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" "10.0.72.1:43082" "10.32.1.5:61002" x_forwarded_for:"165.1.238.31, 10.0.72.1" x_forwarded_proto:"https" vcap_request_id:"7557b195-1cb7-43f8-40ac-8ea90cbf2ec9" response_time:0.234927 gorouter_time:0.000076 app_id:"a691ce29-063e-4879-a861-affa2c6d4310" app_index:"0" instance_id:"1209cb52-7bd7-4145-5ed6-4c2b" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"9ec8d915-2f8f-4c5d-84e0-4e712a94eb2c-63A6B352-F376C" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" x_b3_traceid:"3a29f985b4eb5a14107272fe4ba1343f" x_b3_spanid:"107272fe4ba1343f" x_b3_parentspanid:"-" b3:"3a29f985b4eb5a14107272fe4ba1343f-107272fe4ba1343f" (STDOUT, RTR)#
+
+#2.0#2022 12 24 08:20:02.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:23 UTC 2022] Updated app with guid a691ce29-063e-4879-a861-affa2c6d4310 ({"lifecycle"=>{"data"=>{}, "type"=>"buildpack"}}) (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:23 UTC 2022] Updating process: "web" (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:40 UTC 2022] Uploading app package for app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:41 UTC 2022] Updated app with guid a691ce29-063e-4879-a861-affa2c6d4310 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:53 UTC 2022] Stopping app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:53 UTC 2022] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 1209cb52-7bd7-4145-5ed6-4c2b (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:53 UTC 2022] Creating build for app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading sap_java_buildpack_1_60... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded sap_java_buildpack_1_60 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading sap_java_buildpack_1_63... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded sap_java_buildpack_1_63 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloading sap_java_buildpack_1_64... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 creating container for instance cf0052a5-e73c-4dca-80ea-7621a4bd3346 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Downloaded sap_java_buildpack_1_64 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:54 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 successfully created container for instance cf0052a5-e73c-4dca-80ea-7621a4bd3346 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:55 UTC 2022] Downloading app package... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:55 UTC 2022] Downloading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:55 UTC 2022] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] Downloaded app package (10.1M) (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] -----> Nodejs Buildpack version 1.8.3 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] Copy [/tmp/buildpacks/78a0401f4b0c1f9600a1b3ac267f2725/dependencies/a12340590bedc07261e0af81c2db893c/node_18.10.0_linux_x64_cflinuxfs3_5d530541.tgz] (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] -----> Installing node 18.10.0 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] engines.node (package.json): >=14.20.0 <18.12.1 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:56 UTC 2022] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] Copy [/tmp/buildpacks/78a0401f4b0c1f9600a1b3ac267f2725/dependencies/0f06052381cbcef1593bd279ca3d9458/yarn_1.22.19_linux_noarch_any-stack_32d0e82e.tgz] (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] -----> Installing yarn 1.22.19 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] Using default npm version: 8.19.2 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] -----> Creating runtime environment (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] Installed yarn 1.22.19 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] Rebuilding any native modules (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] -----> Building dependencies (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] NODE_VERBOSE=false (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] NODE_MODULES_CACHE=true (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.893#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] NODE_HOME=/tmp/contents4263106175/deps/0/node (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:58 UTC 2022] NODE_ENV=production (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:59 UTC 2022] rebuilt dependencies successfully (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:59 UTC 2022] npm notice (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:59 UTC 2022] npm notice Run `npm install -g npm@9.2.0` to update! (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:59 UTC 2022] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0> (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:59 UTC 2022] npm notice New major version of npm available! 8.19.2 -> 9.2.0 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:59 UTC 2022] npm notice (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:19:59 UTC 2022] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:00 UTC 2022] run `npm fund` for details (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:00 UTC 2022] 2 packages are looking for funding (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:00 UTC 2022] up to date in 565ms (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:01 UTC 2022] service is not configured to run with Sealights (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:01 UTC 2022] inside Sealights hook (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:02.894#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10262###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:01 UTC 2022] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:01 UTC 2022] service is not configured to run with Sealights (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:01 UTC 2022] inside Sealights hook (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:09 UTC 2022] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 1209cb52-7bd7-4145-5ed6-4c2b (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:09 UTC 2022] Uploading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:09 UTC 2022] Uploading droplet... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:09 UTC 2022] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:09 UTC 2022] Exit status 0 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:09 UTC 2022] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:09 UTC 2022] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:10 UTC 2022] Creating droplet for app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:12.927#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8511###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:10 UTC 2022] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 1209cb52-7bd7-4145-5ed6-4c2b (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:22.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10264###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:16 UTC 2022] Uploaded droplet (51.6M) (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:22.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10264###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:16 UTC 2022] Uploading complete (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:22.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10264###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:16 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 destroying container for instance cf0052a5-e73c-4dca-80ea-7621a4bd3346 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:22.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10264###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:16 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 stopping instance cf0052a5-e73c-4dca-80ea-7621a4bd3346 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:22.891#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10264###
+[PollStageAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:17 UTC 2022] Cell d89356d5-8b8d-4fb9-b939-143db8dad6d7 successfully destroyed container for instance cf0052a5-e73c-4dca-80ea-7621a4bd3346 (STDOUT, STG)#
+
+#2.0#2022 12 24 08:20:33.020#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:23 UTC 2022] Updated app with guid a691ce29-063e-4879-a861-affa2c6d4310 ({:droplet_guid=>"6b6641f0-b20e-409f-8524-39db8d7ff801"}) (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:23 UTC 2022] Creating revision for app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:23 UTC 2022] Starting app with guid a691ce29-063e-4879-a861-affa2c6d4310 (STDOUT, API)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:23 UTC 2022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 7ebc3af9-84d6-4241-7e55-be9e (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:24 UTC 2022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 7ebc3af9-84d6-4241-7e55-be9e (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:24 UTC 2022] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:27 UTC 2022] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:27 UTC 2022] Downloaded droplet (51.6M) (STDOUT, CELL)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:30 UTC 2022] > node node_modules/@sap/approuter/approuter.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:30 UTC 2022] > start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:33.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8513###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:32 UTC 2022] {"written_at":"2022-12-24T08:20:32.449Z","written_ts":1671870032449000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:42.960#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10267###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:34 UTC 2022] {"written_at":"2022-12-24T08:20:34.052Z","written_ts":1671870034052000000,"csn_component":"-","correlation_id":"lc1o92f8","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1o92f8","msg":"Application router version 10.5.1"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:42.960#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10267###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:34 UTC 2022] {"written_at":"2022-12-24T08:20:34.054Z","written_ts":1671870034054000000,"csn_component":"-","correlation_id":"lc1o92f9","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1o92f9","msg":"No COOKIES environment variable"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:42.960#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10267###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:34 UTC 2022] {"written_at":"2022-12-24T08:20:34.053Z","written_ts":1671870034053000000,"csn_component":"-","correlation_id":"lc1o92f9","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1o92f9","msg":"Using empty destinations to run"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:42.960#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10267###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:34 UTC 2022] {"written_at":"2022-12-24T08:20:34.059Z","written_ts":1671870034059000000,"csn_component":"-","correlation_id":"lc1o92ff","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"warning","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1o92ff","msg":"No authentication will be used when accessing backends. Scopes defined in routes will be ignored."} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:42.960#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10267###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:34 UTC 2022] {"written_at":"2022-12-24T08:20:34.157Z","written_ts":1671870034157000000,"csn_component":"-","correlation_id":"lc1o92f8","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.2.6","component_type":"application","component_id":"a691ce29-063e-4879-a861-affa2c6d4310","component_name":"simplefiorilauncher-approuter","component_instance":-1,"source_instance":-1,"organization_id":"ab7c898f-9bb2-4405-be2d-a65c88c6680d","organization_name":"ca502f84trial","space_id":"54a1482d-f10f-4bd1-a76f-4cb09cabe07a","space_name":"dev","context_id":"lc1o92f8","msg":"Application router is listening on port: 8080"} (STDOUT, APP/PROC/WEB)#
+
+#2.0#2022 12 24 08:20:42.960#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a5b18a15-8363-11ed-b83f-eeee0a8ad07c.simplefiorilauncher-approuter.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10267###
+[PollStartAppStatusExecution] [simplefiorilauncher-approuter] a691ce29-063e-4879-a861-affa2c6d4310 [Sat Dec 24 08:20:35 UTC 2022] Container became healthy (STDOUT, CELL)#
+

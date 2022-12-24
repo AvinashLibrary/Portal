@@ -8,18 +8,30 @@
       "https://*.cfapps.us10-001.hana.ondemand.com/**"
     ]
   },
+  "authorities": [
+    "$XSAPPNAME.read"
+  ],
   "scopes": [
     {
-      "name": "uaa.user",
-      "description": "UAA"
+      "name": "$XSAPPNAME.read",
+      "description": "With this scope, USER can read products."
     }
   ],
   "role-templates": [
     {
-      "name": "Token_Exchange",
-      "description": "UAA",
+      "name": "Viewer",
+      "description": "Role to get the list of products",
       "scope-references": [
-        "uaa.user"
+        "$XSAPPNAME.read"
+      ]
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "ProductListViewer",
+      "description": "Product List Viewer",
+      "role-template-references": [
+        "$XSAPPNAME.Viewer"
       ]
     }
   ]

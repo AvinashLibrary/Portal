@@ -15,8 +15,9 @@ modules:
     TENANT_HOST_PATTERN: '^(.*)-${space}-simplefiorilauncher${custom-domain}.${default-domain}'
   requires:
   - name: simpleFioriLauncher_html_repo_runtime
-  - name: uaa_simpleFioriLauncher
+  - name: simpleFioriLauncher-xsuaa
   - name: portal_resources_simpleFioriLauncher
+  
   parameters:
     disk-quota: 256M
     memory: 256M
@@ -31,19 +32,22 @@ modules:
         config:
           content-endpoint: developer
         name: content-deploy-key
-  - name: uaa_simpleFioriLauncher
+  - name: simpleFioriLauncher-xsuaa
+  - name: applicatioui-html5-srv
 resources:
+- name: applicatioui-html5-srv
+  type: org.cloudfoundry.existing-service
 - name: simpleFioriLauncher_html_repo_runtime
   type: org.cloudfoundry.managed-service
   parameters:
     service: html5-apps-repo
     service-plan: app-runtime
-- name: uaa_simpleFioriLauncher
+- name: simpleFioriLauncher-xsuaa
   type: org.cloudfoundry.managed-service
   parameters:
     path: ./xs-security.json
     service: xsuaa
-    service-name: simpleFioriLauncher-xsuaa-service
+    service-name: simpleFioriLauncher-xsuaa-srv
     service-plan: application
 - name: portal_resources_simpleFioriLauncher
   type: org.cloudfoundry.managed-service
