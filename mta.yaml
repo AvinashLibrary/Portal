@@ -17,7 +17,7 @@ modules:
   - name: simpleFioriLauncher_html_repo_runtime
   - name: simpleFioriLauncher-xsuaa
   - name: portal_resources_simpleFioriLauncher
-  
+  - name: applicatioui-destination-service
   parameters:
     disk-quota: 256M
     memory: 256M
@@ -36,6 +36,8 @@ modules:
   - name: applicatioui-html5-srv
 resources:
 - name: applicatioui-html5-srv
+  type: org.cloudfoundry.existing-service
+- name: applicatioui-destination-service
   type: org.cloudfoundry.existing-service
 - name: simpleFioriLauncher_html_repo_runtime
   type: org.cloudfoundry.managed-service
